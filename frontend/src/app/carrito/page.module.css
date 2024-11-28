@@ -1,0 +1,130 @@
+/* Estilos generales */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4285f4; /* Azul Google */
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.nombreUsuario {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.listaDePropuestas {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.propuesta {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.propuesta h5 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.propuesta p {
+  margin: 5px 0;
+}
+
+.propuesta span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745; /* Verde */
+}
+
+.btnEliminar {
+  background-color: #dc3545; /* Rojo */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btnEliminar:hover {
+  background-color: #c82333;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.fotos img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.mensajeVacio {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.detallesDeCompra {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btnConfirm {
+  background-color: #28a745; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btnConfirm:hover {
+  background-color: #218838;
+}

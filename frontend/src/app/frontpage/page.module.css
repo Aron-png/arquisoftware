@@ -1,0 +1,255 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Global Styles */
+.render {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.content {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+/* Sections */
+.sections {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Sector 1 */
+.sector1 {
+  width: 15%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #1976d2;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.table td {
+  padding: 6px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 13px;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover {
+  background-color: #f0f0f0;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+/* Sector 2 */
+.sector2 {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Small Image */
+.small-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #a0a0a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+}
+
+.category-button svg {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.category-button:hover {
+  background-color: #888888;
+}
+
+.light-text {
+  color: #888;
+}
+
+/* Grid Container */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Service Cards */
+.servicioCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.servicioCard img {
+  width: 150px;
+  height: 150px;
+}
+
+.servicioCard h3 {
+  margin: 10px 0;
+}
+
+.servicioCard .descripcion {
+  font-size: 12px;
+  color: #666;
+}
+
+.servicioCard .costo {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.servicioCard .botones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mas-detalles,
+.carrito {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrito svg {
+  font-size: 16px;
+}
+
+/* Pagination */
+.paginacion {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.paginacion button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.paginacion button:disabled {
+  background-color: #888;
+}
+
+/* Lower Banner */
+.lower-banner {
+  background-color: #1976d2;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.lower-banner .links {
+  margin-bottom: 10px;
+}
+
+.lower-banner .links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.lower-banner .links a:hover {
+  text-decoration: underline;
+}
+
+.lower-banner p {
+  margin-top: 10px;
+  color: white;
+}
+
+/* Carousel */
+.carouselContainer {
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.carouselContainer img {
+  max-height: 300px;
+  object-fit: cover;
+}

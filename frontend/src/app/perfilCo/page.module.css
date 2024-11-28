@@ -1,0 +1,230 @@
+/* Estilo general */
+.layout {
+    display: flex;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebarTitle {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+/* Barra lateral */
+.menu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 23px 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo especial para la opción Perfil */
+.menu li .perfilActive {
+    background-color: #2e004b;  /* Color más oscuro para el fondo */
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.menu li:hover {
+    background-color: #2e004b;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+
+/* Contenedor principal */
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.input, .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.btnGuardar {
+    padding: 10px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnGuardar:hover {
+    background-color: #500a7c;
+}
+
+/* Estilos de cabecera */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatarImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.userInfo {
+    text-align: center;
+}
+
+.userName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.userProfesion {
+    font-size: 16px;
+    color: #6a0dad;
+}
+
+.logoutButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logoutButton:hover {
+    background-color: #500a7c;
+}
+/* Estilo para la opción activa */
+
+/* Estilo para la puntuación */
+.puntuacion {
+    font-size: 18px;
+    color: gold;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.starIcon {
+    margin-right: 5px;
+}
+
+/* Contenedor de comentarios */
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.comentarioCard {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comentarioAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comentarioNombre {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.comentarioTexto {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.noComentarios {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}

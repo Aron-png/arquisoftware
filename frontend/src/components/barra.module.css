@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 20%;   
+  }
+  
+
+  .busqueda{
+    width: 50%;
+    margin-right: 20px;
+  }
+
+
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .boton{
+    display: flex;
+    width: 5%;
+    padding: 0;
+    margin-bottom:11px ;
+  }
+
+  .custom-btn {
+    background-color: #4CAF50; /* Cambia el color de fondo */
+    border-color: #388E3C; /* Cambia el color del borde */
+    color: white !important ; /* Cambia el color del texto */
+}
+  
+.custom-btn:hover {
+  background-color: #388E3C; /* Cambia el color al pasar el cursor */
+}
+ 
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #990066; /* color de fondo del botón */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button svg {
+  fill: #ffffff; /* color blanco para el ícono */
+  width: 24px;
+  height: 24px;
+}
+
+.perfil{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.p1{
+  margin: 0px;
+}
+
+.h41{
+  margin: 0px;
+}
+
+.carrito{
+  width: 10%;
+  background-color: blue;
+}
